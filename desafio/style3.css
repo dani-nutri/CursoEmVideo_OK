@@ -1,0 +1,262 @@
+* {
+  margin: 0px;
+}
+
+#top_color {
+  background-color: burlywood;
+  height: 40px;
+}
+
+#top_foto {
+  height: 200px;
+}
+
+#top_color2 {
+  background-color: burlywood;
+  height: 40px;
+}
+
+#dente {
+  width: 50px;
+}
+
+#whats {
+  width: 20px;
+  margin-top: 10px;
+}
+
+#texto_topo {
+  text-align: center;
+  float: right;
+  margin-right: 200px;
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+#odonto {
+  font-size: 0.7em;
+  margin-top: 5px;
+}
+
+#contato {
+  text-decoration: none;
+  font-size: 0.8em;
+  margin-top: 15px;
+}
+
+#tratamentos {
+  font-size: 1.2em;
+  color: maroon;
+  margin-left: 100px;
+}
+
+#procurados {
+  font-size: 1.2em;
+  color: burlywood;
+  margin-left: 100px;
+}
+
+#trat_procura {
+  margin-top: 15px;
+}
+
+.procedimentos {
+  height: 80px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+#saiba_mais {
+  border: 2px solid rgb(159, 105, 5);
+  background-color: rgb(159, 105, 5);
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  margin-left: 100px;
+  padding: 2px;
+}
+
+#saiba_mais:hover {
+  color: moccasin;
+}
+
+.background_marrom {
+  background-color: rgb(156, 117, 17);
+}
+
+#kate {
+  height: 300px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.dra_kate {
+  font-size: 1.4em;
+  margin-left: 100px;
+  color: maroon;
+  margin-bottom: 10px;
+}
+
+.quem_sou {
+  color: maroon;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+#clinica {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+#opiniao {
+  font-size: 1.4em;
+  color: maroon;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.name {
+  font-size: 1.2;
+  color: rgb(204, 146, 74);
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.star {
+  width: 70px;
+  margin-left: 90px;
+  padding: 0%;
+}
+
+.coment {
+  font-style: italic;
+  font-size: 0.8em;
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+
+#back_escuro {
+  background-color: rgb(59, 43, 18);
+}
+
+#consulta {
+  font-size: 1.4em;
+  color: bisque;
+  margin-left: 100px;
+  padding-top: 10px;
+}
+
+.fale {
+  font-size: 1.2em;
+  color: white;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.dados {
+  margin-left: 100px;
+  font-size: 0.9em;
+  color: lightsalmon;
+  margin-top: 10px;
+}
+
+.agendar {
+  width: 60px;
+  height: 30px;
+  background-color: antiquewhite;
+  text-decoration: none;
+  border-radius: 10px;
+  color: black;
+  margin-left: 100px;
+}
+
+.agendar:hover {
+  background-color: brown;
+}
+
+#conheca {
+  font-size: 1.2em;
+  color: maroon;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+#nossa_clinica {
+  font-size: 1.2em;
+  color: burlywood;
+  margin-left: 100px;
+}
+
+.clinica {
+  width: 300px;
+  margin-left: 100px;
+}
+
+.saiba_mais1 {
+  border: 2px solid rgb(159, 105, 5);
+  background-color: rgb(159, 105, 5);
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  margin-left: 100px;
+  padding: 2px;
+}
+
+.saiba_mais1:hover {
+  color: moccasin;
+}
+
+#footer_color {
+  background-color: rgb(138, 50, 125);
+}
+
+#me_siga {
+  font-size: 1.2em;
+  color: white;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+#redes {
+  font-size: 1.2em;
+  margin-left: 100px;
+  color: rgb(231, 211, 131);
+}
+
+#insta {
+  width: 30px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+#face {
+  width: 30px;
+}
+
+#trat {
+  font-size: 1.2em;
+  color: white;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+#whats1 {
+  width: 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+#contato {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: white;
+  width: 40px;
+  height: 80px;
+  background-color: rgb(143, 221, 26);
+}
+
+#contato:hover {
+  background-color: green;
+}

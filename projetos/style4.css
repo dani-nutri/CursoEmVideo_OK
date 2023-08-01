@@ -1,0 +1,41 @@
+h1 {
+  background-color: aqua;
+  height: 300px;
+  width: 300px;
+
+  /*shorthand:
+  border: 10px solid black;
+  */
+  border-width: 10px;
+  border-style: solid;
+  border-color: black;
+
+  /*shorthand:
+  padding: 10px 10px 10px 10px;   ou
+  padding: 10px;
+  */
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+  margin: auto;
+
+  /*shorthand:
+  outline: 5px dashed olive;
+  */
+  outline-width: 5px;
+  outline-style: dashed;
+  outline-color: olive;
+}
+
+a {
+  border-width: 10px;
+  border-style: solid;
+  border-color: red;
+
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}

@@ -1,0 +1,30 @@
+@charset 'UTF-8';
+/*Fonte do Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Sacramento&family=Satisfy&display=swap');
+
+/*Fontes baixadas de origem externas*/
+@font-face {
+  font-family: 'Starshines';
+  src: url('media/Starshines.otf') format('opentype'),
+    url('media/Starshines.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Courgette', cursive;
+  font-size: 1em;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+h1 {
+  /* shorthand: style, weight, size e family*/
+  font: italic bolder 3em 'Sacramento';
+  text-align: center;
+}
+
+h2 {
+  font: bold 2em 'Starshines';
+}
