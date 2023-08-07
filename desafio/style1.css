@@ -4,7 +4,10 @@
 
 #topo {
   background-image: url(imagens/strong-man.jpg);
+  background-repeat: no-repeat;
   padding: 80px;
+  background-position: center top;
+  background-size: cover;
 }
 
 #titulo {
