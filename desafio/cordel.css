@@ -8,12 +8,12 @@ body {
 header {
   background-color: black;
   padding: 20px;
+  text-align: center;
 }
 
 h1 {
   font: normal bolder 3em 'Lato', sans-serif;
   color: white;
-  text-align: center;
 }
 
 #autor {
@@ -29,4 +29,26 @@ section {
 
 #flor {
   background-image: url(/desafio/imagens/background001.jpg);
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed; /*efeito paralax*/
+}
+
+#cartas {
+  background-image: url(/desafio/imagens/background002.jpg);
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section#flor > p {
+  width: 300px;
+  background-color: rgba(169, 169, 169, 0.438);
+  text-shadow: 1px 1px 1px black;
+}
+
+section#cartas > p {
+  width: 300px;
+  background-color: rgba(143, 140, 140, 0.438);
+  text-shadow: 1px 1px 1px black;
 }
