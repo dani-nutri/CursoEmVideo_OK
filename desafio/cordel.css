@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lato:ital,wght@1,900&family=Sacramento&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Courgette&family=Lato:ital,wght@1,900&family=Sacramento&family=Satisfy&display=swap');
+
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+}
+
+h1 {
+  font: normal bolder 3em 'Lato', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#autor {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+
+section {
+  font: italic bolder 1.3em 'Borel', cursive;
+  padding: 20px;
+}
+
+#flor {
+  background-image: url(/desafio/imagens/background001.jpg);
+}
