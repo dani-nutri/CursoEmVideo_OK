@@ -24,30 +24,18 @@
   margin-top: 20px;
 }
 
-.segunda_parte {
+.parte2 {
+  width: 20vw;
   display: inline-block;
+  padding: 20px;
+  margin: auto;
 }
 
-#agachamento {
-  width: 200px;
-  height: 135px;
-}
-
-.imagens_2 {
-  margin: 40px;
-  float: left;
-}
-
-#corrida {
-  width: 200px;
-  height: 100px;
-}
-
-.texto_treino {
+#treinamento {
+  height: 300px;
+  width: 500px;
   text-align: justify;
   font-family: 'Times New Roman', Times, serif;
-  margin-top: 40px;
-  margin-right: 40px;
 }
 
 #treino_titulo {
@@ -60,123 +48,78 @@
   margin-top: 5px;
 }
 
-#treino_paragrafo {
+#treino_p {
   font-size: 0.8em;
-  margin-top: 10px;
 }
 
-#ver_mais {
-  color: orange;
-  text-decoration: none;
+.ver {
   border: 2px solid lightgrey;
   border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 60px;
+}
+
+#ver-mais {
+  color: orange;
+  text-decoration: none;
+}
+
+.ver:hover {
+  background-color: darkgray;
+}
+
+.parte3 {
+  background-color: darkgray;
   padding: 10px;
 }
 
-#ver_mais:hover {
-  background-color: lightgray;
+section.parte3 > div {
+  width: 20vw;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
 }
 
-.terceira_parte {
-  background-color: lightgray;
-  display: inline-flex;
-}
-
-#heart_icone {
-  width: 50px;
-  height: 50px;
-  border: 2px solid lightgray;
-  margin-left: 110px;
-}
-
-#heart {
+.text_icon {
   width: 200px;
   height: 200px;
   border: 2px solid lightgray;
   text-align: justify;
   font-size: 0.8em;
-  margin-left: 40px;
-  margin-top: 10px;
 }
 
-#cardio {
-  margin-left: 70px;
-}
-
-#hand_icone {
+.icon {
   width: 50px;
   height: 50px;
   border: 2px solid lightgray;
-  margin-left: 110px;
 }
 
-#forca {
-  margin-left: 70px;
+.parte4 {
+  background-image: url(/desafio/imagens/madeira.jpg);
+  height: 500px;
+  position: relative;
 }
 
-#hand_text {
-  width: 200px;
-  height: 200px;
-  border: 2px solid lightgray;
-  text-align: justify;
-  font-size: 0.8em;
-  margin-left: 40px;
-  margin-top: 10px;
+.parte4 > div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
 }
 
-#group_icone {
-  width: 50px;
-  height: 50px;
-  border: 2px solid lightgray;
-  margin-left: 110px;
-}
-
-#aulas {
-  margin-left: 90px;
-}
-
-#aulas_texto {
-  width: 200px;
-  height: 200px;
-  border: 2px solid lightgray;
-  text-align: justify;
-  font-size: 0.8em;
-  margin-left: 40px;
-  margin-top: 10px;
-}
-
-#personal {
-  margin-left: 40px;
-}
-
-#personal_text {
-  width: 200px;
-  height: 200px;
-  border: 2px solid lightgray;
-  text-align: justify;
-  font-size: 0.8em;
-  margin-left: 40px;
-  margin-top: 10px;
-  padding-right: 100px;
-}
-
-#flag {
-  width: 50px;
-  height: 50px;
-  border: 2px solid lightgray;
-  margin-left: 110px;
-}
-
-.frases {
-  background-color: black;
-}
-
-#frase_texto {
-  width: 370px;
+#frases {
+  width: 500px;
   height: 200px;
   background-color: white;
-  margin-left: 450px;
-  padding: 50px;
+  padding: 20px;
+}
+
+#titulo_2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6em;
+  color: orange;
 }
 
 .quote {
@@ -188,80 +131,37 @@
   margin-bottom: 15px;
 }
 
-#titulo2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.1em;
-  color: orange;
+.first-row {
+  width: 30vw;
+  padding: 20px;
 }
 
-.autor {
-  font-weight: normal;
+.sec-row {
+  width: 30vw;
+  padding: 40px;
 }
 
-.galeria {
-  background-color: white;
-}
-
-#titulo3 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 1.1em;
-  margin-left: 40px;
-  margin-top: 40px;
-}
-
-.academia_1_row {
-  width: 200px;
-  height: 100px;
-  display: inline-block;
-  margin: 40px;
-}
-
-.academia_2_row {
-  width: 400px;
-  height: 200px;
-  display: inline-block;
-  margin: 10px;
-}
-
-.academia_3_row {
-  width: 200px;
-  height: 100px;
-  display: inline-block;
-  margin: 40px;
+.third-row {
+  width: 30vw;
+  padding: 20px;
 }
 
 .galeria_video {
   background-color: orange;
+  width: 100vw;
+  height: 200px;
 }
 
-.contatos {
-  background-color: white;
+.contato {
+  margin-left: 40px;
 }
 
-#house {
+.icon2 {
   width: 50px;
   height: 50px;
+  margin-top: 20px;
 }
 
-#home {
-  margin: 40px;
-}
-
-#email {
-  width: 50px;
-  height: 50px;
-}
-
-#endereco_eletronico {
-  margin: 40px;
-}
-
-#fone {
-  width: 50px;
-  height: 50px;
-}
-
-#telefone {
-  margin: 40px;
+.address {
+  margin-top: 10px;
 }
