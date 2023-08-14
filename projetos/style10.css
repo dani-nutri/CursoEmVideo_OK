@@ -1,0 +1,25 @@
+table {
+  width: 400px;
+  height: 200px;
+  border-collapse: collapse;
+  position: relative;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center; /*alinhamento horizontal*/
+  vertical-align: middle; /*alinhamento vertical*/
+}
+
+tbody > tr:nth-child(2n) {
+  background-color: coral;
+}
+
+thead > tr > th {
+  /*fixa o cabeçalho na tela*/
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
