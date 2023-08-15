@@ -1,0 +1,31 @@
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+caption {
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cnome {
+  background-color: blueviolet;
+}
+
+.csexo {
+  background-color: yellow;
+}
+
+.cidade {
+  background-color: green;
+}
+
+.cprof {
+  background-color: blue;
+}
